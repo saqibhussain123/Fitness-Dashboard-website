@@ -1,0 +1,199 @@
+| **Function**           | **Details**                                                                                                  |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Register / Sign Up** | New users can create an account with username, email, password, and profile picture.                         |
+| **Login**              | Login securely using email and password.                                                                     |
+| **Profile**            | View and update their name, email, and profile picture.                                                      |
+| **Workout Management** | Create, edit, or delete workout routines (e.g., Push Day, Cardio,muscle building ,weight loss etc.) with sets, reps, weights, and notes. |
+| **Nutrition Tracking** | Log food intake per meal (breakfast, lunch, dinner, snacks) along with calories and macronutrients.          |
+| **Progress Tracking**  | Enter weight, body measurements, and other fitness data over time.                                           |
+| **View Progress**      | See charts/graphs that show their fitness improvements (e.g., weight loss, strength gains).                  |
+| **Dashboard**          | Personalized dashboard showing recent workouts, meals, and progress.                                         |
+
+
+Workout Routes:
+Push Day (Chest, Shoulders, Triceps)
+
+Bench Press
+
+Shoulder Press
+
+Tricep Dips
+
+Push-ups
+
+Pull Day (Back, Biceps)
+
+Pull-Ups
+
+Bent-over Rows
+
+Barbell Curls
+
+Deadlifts
+
+Leg Day (Quads, Hamstrings, Calves)
+
+Squats
+
+Lunges
+
+Leg Press
+
+Calf Raises
+
+🧘‍♀️ Cardio Routines
+Focused on fat burning and heart health
+
+HIIT (High Intensity Interval Training)
+
+Jumping Jacks
+
+Burpees
+
+High Knees
+
+Mountain Climbers
+
+Steady-State Cardio
+
+Treadmill Running (30 mins)
+
+Cycling (45 mins)
+
+Brisk Walking
+
+🤸‍♂️ Full Body / Functional Training
+General fitness, beginners, or home workouts
+
+Beginner Full Body
+
+Bodyweight Squats
+
+Push-ups
+
+Planks
+
+Jumping Jacks
+
+Core Focused Routine
+
+Sit-ups
+
+Russian Twists
+
+Leg Raises
+
+Plank Hold
+
+🔁 Weekly Split Example (For Reference)
+Day	Routine Type
+Monday	Push (Chest/Triceps)
+Tuesday	Pull (Back/Biceps)
+Wednesday	Cardio / Rest
+Thursday	Legs
+Friday	Core + HIIT
+Saturday	Full Body Workout
+Sunday	Rest
+
+
+
+
+🍽️ Nutrition Tracking – Main Features
+Feature	Details
+Meal Logging	User har din ke liye meals log karega: Breakfast, Lunch, Dinner, Snacks.
+Food Items	Har meal ke andar user food items add karega (jaise: "2 eggs", "1 cup rice").
+Quantity	Har item ki quantity (e.g., grams, cups, pieces) likhni hogi.
+Nutrition Info	Har item ke sath calories, protein, carbs, fat show hoga (auto calculate ya manual entry).
+Daily Totals	App user ke din bhar ke calories aur macronutrients ka total show karega.
+Meal Templates (Optional)	Frequently used meals ko save kar sakta hai for quick logging.
+
+🥗 Example Entry Format
+👇 Meal: Lunch
+Food Item	Quantity	Calories	Protein	Carbs	Fat
+Grilled Chicken	150g	250	30g	0g	10g
+Rice (white)	1 cup (200g)	220	4g	45g	2g
+Mixed Veggies	100g	70	3g	10g	1g
+
+📌 Total for Lunch:
+Calories: 540 kcal | Protein: 37g | Carbs: 55g | Fat: 13g
+
+karein
+
+🛠️ Optional Advanced Features (Agar Banana Chahein)
+Food Search API Integration (like Edamam or Nutritionix)
+
+User sirf “Apple” likhe, data auto-fill ho jaye.
+
+Barcode Scanner (Mobile App)
+
+Packaged food scan karke nutrition auto mile.
+
+Goal Setting
+
+Daily calorie/protein/fat/carb goals set kar sake.
+
+🧍‍♂️ Progress Tracking – Main Features
+Feature	Details
+Weight Tracking	User apna weight (kg/lbs) har week/din enter kar sakta hai.
+Body Measurements	User apne body parts ke measurements enter karega: chest, waist, arms, legs, hips, etc.
+Performance Metrics	User apne workout performance track kare: running time, lifting weight, number of reps etc.
+Progress Graphs	Charts show karein progress over time (e.g., weight loss chart, strength gain chart).
+Date-wise Entries	Har entry specific date ke sath hogi taake timeline track ho sake.
+
+📊 Example Data Table – Progress Entry
+Date	Weight	Chest	Waist	Squat (kg)	Run (1km)
+01-Jun-2025	75 kg	100 cm	85 cm	60 kg	6:00 min
+07-Jun-2025	73.5 kg	98 cm	83 cm	65 kg	5:45 min
+14-Jun-2025	72 kg	97 cm	82 cm	70 kg	5:30 min
+
+📈 Graph Types Suggested
+Weight vs Time
+
+Chest/Waist/Arm measurements vs Time
+
+Running time vs Date
+
+Squat/Bench Press progress
+
+ Main Components of View Progress
+Section	Description
+📅 Date Filter	User choose kare: Last 7 days, 30 days, Custom Date Range
+📈 Weight Progress Graph	Line chart showing weight change over time
+📏 Body Measurements Charts	Chest, waist, arms, hips changes over time
+🏋️ Workout Performance Charts	Squat weight, run time, bench press progress
+📸 Progress Photo Viewer (Optional)	Weekly photos side-by-side to visualize body transformation
+✅ Goal Achievement Meter	A progress bar showing how close the user is to their goal weight or target lift
+
+User:
+
+Apna account bana sakta hai, login kar sakta hai.
+
+Workout routines save kar sakta hai (jaise ke Chest Day, Cardio).
+
+Apna khana daily log kar sakta hai (calories, protein, etc.).
+
+Apni progress (weight, measurements) time ke sath record kar sakta hai.
+
+Dashboard pe sab kuch ek jagah dikhai deta hai.
+
+Admin:
+
+Sab users ka data dekh sakta hai.
+
+Galat ya inactive users ko delete/edit kar sakta hai.
+
+Users ka progress aur logs monitor kar sakta hai.
+
+Puri system ki reporting ya analytics check kar sakta hai.
+
+
+
+
+| **Function**                      | **Details**                                                                         |
+| --------------------------------- | ----------------------------------------------------------------------------------- |
+| **View Users**                    | See a list of all registered users.                                                 |
+| **Manage Users**                  | Edit or delete any user’s account if needed.                                        |
+| **Monitor Activity**              | View users' workout logs, food logs, and progress.                                  |
+| **Analytics**                     | Track how many users are active, number of workouts logged, nutrition entries, etc. |
+| **Support**                       | Respond to user queries (maybe via email or a support panel).                       |
+| **Content Management (Optional)** | Add or suggest common exercises, nutrition items, or workout templates.             |
